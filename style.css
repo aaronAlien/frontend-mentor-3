@@ -40,7 +40,7 @@ html {
 }
 
 .user {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .user figure {
@@ -77,7 +77,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: left;
-  gap: 20px;
+  gap: 16px;
 }
 
 .card-text p,
@@ -119,9 +119,9 @@ html {
 }
 
 /* light text cards */
-.card-one #author-name,
-.card-two #author-name,
-.card-five #author-name {
+.card-one .author-name,
+.card-two .author-name,
+.card-five .author-name {
   color: hsl(0, 0%, 81%);
   font-weight: 500;
 }
@@ -150,8 +150,8 @@ html {
 }
 
 /* dark text cards */
-.card-three #author-name,
-.card-four #author-name {
+.card-three .author-name,
+.card-four .author-name {
   color: hsl(217, 19%, 35%);
   font-weight: 500;
 }
